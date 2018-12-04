@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/topBit"
+        android:layout_width="fill_parent"
+        android:layout_height="202dp"
+        android:background="#000000"
+        android:orientation="vertical" >
+        <WebView
+            android:id="@+id/videoWebView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomBit"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="202dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/media_listview"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/trayBit"
+        android:layout_width="fill_parent"
+        android:layout_height="125dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>
+
+    <!-- Yellow #FFCC00 -->
